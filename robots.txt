@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mbarnfield63.github.io/al-folio/sitemap.xml
+Sitemap: https://mbarnfield63.github.io/sitemap.xml
