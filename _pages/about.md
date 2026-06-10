@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -24,8 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a second year PhD student at University College London (UCL) part of the [ExoMol](https://exomol.com/) group supervised by Jonathan Tennyson. My studies are funded by UCL's Center for Doctoral Training in [Data Intensive Science & Industry (DISI)](https://www.ucl.ac.uk/data-intensive-science-industry).
+I’m a second-year PhD researcher at University College London, working in the [ExoMol](https://exomol.com/) molecular spectroscopy group under Prof. Jonathan Tennyson FRS. My studies are funded by UCL’s Centre for Doctoral Training in [Data Intensive Science & Industry (DISI)](https://www.ucl.ac.uk/data-intensive-science-industry).
 
-My research focuses on building the "molecular libraries" needed to understand exoplanet atmospheres. By developing machine learning frameworks to automate quantum number assignment and extrapolate isotopologue data, I’m working to create the high-accuracy datasets essential for decoding the chemical signatures of distant worlds.
+My research sits at the intersection of machine learning and molecular physics: I build the computational infrastructure that makes large-scale spectroscopic databases possible. Current projects include ML frameworks for isotopologue energy level extrapolation (published, *Journal of Molecular Spectroscopy* 2026), graph neural network pipelines for automated quantum number assignment across millions of molecular states, and the tooling that keeps the ExoMol database of exoplanet atmospheric opacity data accurate and up to date.
 
-Before my PhD I completed a Master's degree from the University of Bristol in Chemistry with Scientific Computing and the Junior Science Apprenticeship programme at the National Physical Laboratory.
+Before UCL I completed an MSci in Chemistry with Scientific Computing at the University of Bristol (First Class) and a Junior Science Apprenticeship at the National Physical Laboratory, where I worked across mass spectrometry imaging and nuclear metrology.

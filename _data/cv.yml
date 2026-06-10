@@ -1,189 +1,155 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Marco G. Barnfield
+  label: PhD Researcher — Machine Learning & Molecular Physics
+  email: marco.barnfield.24@ucl.ac.uk
+  location: London, UK
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Second-year PhD researcher at UCL ExoMol, building ML frameworks for large-scale molecular spectroscopy databases. Published first-author research in the Journal of Molecular Spectroscopy (2026) on machine learning isotopologue extrapolation.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: mbarnfield63
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: mbarnfield
+    - network: Google Scholar
+      username: KXJVCS0AAAAJ
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: University College London
+        location: London, UK
+        url: https://www.ucl.ac.uk/
+        area: Physics and Machine Learning
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2024
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Project: Machine Learning Isotopologue Extrapolation for use in Astronomical Spectroscopy"
+          - "Supervisors: Prof. Jonathan Tennyson FRS & Prof. Sergei N. Yurchenko"
+          - "Funded by the EPSRC Centre for Doctoral Training in Data Intensive Science & Industry (DISI)"
+          - "Chaired external consultancy project building an ML pipeline for flood defence analysis (USA)"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of Bristol
+        location: Bristol, UK
+        url: https://www.bristol.ac.uk/
+        area: Chemistry with Scientific Computing
+        studyType: MSci
+        start_date: 2019
+        end_date: 2024
+        score: "First Class Honours"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Master's Project: Photochemistry of Hot Water for Hot Jupiter Exoplanet Atmospheric Modelling — Supervisor: Prof. Andrew Orr-Ewing FRS"
+          - "First class average in years 1 & 2; highest mark in year for Advanced Data Science"
+          - "Chair, Group Project in Scientific Computing — contributed to published photolysis rate software (In Silico Photochemistry Group, Supervisor: Prof. Basile Curchod)"
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - institution: National Physical Laboratory
+        location: Teddington, UK
+        area: Applied Science
+        studyType: "L3 BTEC Diploma (D*D*) & Laboratory Technician Standard (Distinction)"
+        start_date: 2017
+        end_date: 2019
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - institution: Hampton School
+        location: Hampton, UK
+        studyType: "10 GCSEs (A*–B)"
+        start_date: 2011
+        end_date: 2016
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Machine learning isotopologue extrapolation for molecular energy levels"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - M.G. Barnfield
+          - O.L. Polyansky
+          - S.N. Yurchenko
+          - J. Tennyson
+        publisher: Journal of Molecular Spectroscopy
+        releaseDate: 2026
+        url: https://doi.org/10.1016/j.jms.2026.112084
+        summary: "First-author. Published PyTorch MLP framework for predicting molecular energy level shifts across isotopologue variants."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "ExoMol LXIII: CO₂ line lists for 12 isotopologues"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - S.N. Yurchenko et al.
+        publisher: Monthly Notices of the Royal Astronomical Society
+        releaseDate: 2025-11
+        url: https://doi.org/10.1093/mnras/staf2135
+        summary: "Co-author (M.G. Barnfield). Contributed GNN-based quantum number assignment pipeline producing 256,640 novel high-confidence assignments across 2.46M CO₂ quantum states."
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Experience:
+      - company: Fluorochem Ltd.
+        position: Consultant & Scientific Content Writer
+        location: Remote
+        start_date: 2024
+        end_date: 2025
+        highlights:
+          - "Developed SEO-optimised scientific web content focused on photochemistry and organometallics"
+
+      - company: University of Bristol
+        position: RSC Summer Research Student
+        location: Bristol, UK
+        start_date: 2023-06
+        end_date: 2023-09
+        summary: "Project: Machine Learning Emulator for Atmospheric Trace Gas Transport — Supervisor: Prof. Matt Rigby"
+        highlights:
+          - "Scaled a proof-of-concept ML emulator for UK greenhouse gas transport to full national domain coverage"
+          - "Optimised computational performance on the BluePebble4 HPC cluster"
+          - "Processed large-scale spatial flux and emissions datasets using Python xarray"
+
+      - company: UCL Geography
+        position: London NERC DTP Summer Intern
+        location: London, UK
+        start_date: 2022-06
+        end_date: 2022-09
+        summary: "Project: Influence of mega constellations on our atmosphere — Supervisor: Dr Eloise Marais"
+        highlights:
+          - "Investigated NOₓ and Al₂O₃ emissions from mega constellation launches and maintenance"
+          - "Presented findings at the Natural History Museum on the environmental impacts of the new space race"
+
+      - company: National Physical Laboratory
+        position: Junior Science Apprentice — NiCE-MSi
+        location: Teddington, UK
+        start_date: 2018
+        end_date: 2019
+        highlights:
+          - "MALDI-MSi matrix preparation optimisation; operated DESI-MSi, HTX TM-Sprayer, and MATLAB"
+          - "Assisted lab manager with day-to-day operations and inventory management"
+
+      - company: National Physical Laboratory
+        position: Junior Science Apprentice — Nuclear Metrology
+        location: Teddington, UK
+        start_date: 2017
+        end_date: 2019
+        highlights:
+          - "Separation of ⁹³Zr & ⁹³Nb using anion exchange resin and ICP-MS; alpha- and gamma-spectroscopy"
+          - "Managed categorisation and safe storage of nuclear waste"
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
       - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords: "Graph Neural Networks (GraphSAGE, GATv2), PyTorch, PyTorch Geometric, scikit-learn, uncertainty quantification, bootstrap retraining, confidence calibration, CUDA"
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: Scientific Computing
+        level: Advanced
+        icon: fa-solid fa-flask
+        keywords: "NumPy, Pandas, SciPy, Matplotlib, xarray, HPC (MPI, OpenMP, Cython, Numba)"
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, C++, SQL, YAML, LaTeX"
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+    Awards:
+      - title: EPSRC DISI CDT Studentship
+        date: 2024
+        awarder: University College London
+        summary: Fully funded PhD studentship as part of the EPSRC Centre for Doctoral Training in Data Intensive Science & Industry.
 
     References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Prof. Jonathan Tennyson FRS
+        icon: fa-solid fa-user
+        reference: "Primary PhD Supervisor. Massey Professor of Physics, Department of Physics and Astronomy, UCL — j.tennyson@ucl.ac.uk"
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Prof. Andrew Orr-Ewing FRS
+        icon: fa-solid fa-user
+        reference: "MSci Project Supervisor. Professor, School of Chemistry, University of Bristol — A.Orr-Ewing@bristol.ac.uk"
