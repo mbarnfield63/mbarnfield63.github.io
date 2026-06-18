@@ -2,10 +2,9 @@
 layout: page
 title: Machine Learning Isotopologue Extrapolation
 description: Published MLP framework predicting molecular energy level shifts across isotopologues — Journal of Molecular Spectroscopy (2026)
-img: assets/img/1.jpg
 importance: 1
 category: research
-related_publications: false
+related_publications: true
 ---
 
 Molecules exist in isotopologue variants — the same chemical species but with different isotopes (e.g., ¹²C¹⁶O₂ vs ¹³C¹⁶O₂). Their rotational-vibrational energy levels shift predictably, but computing these shifts from first principles for every variant is computationally expensive. This project replaces those ab initio calculations with a trained neural network.

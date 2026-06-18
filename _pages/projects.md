@@ -2,11 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research and engineering projects from my PhD at UCL ExoMol. Covers graph neural networks, molecular spectroscopy pipelines, and scientific database tooling.
+description: false
 nav: true
 nav_order: 3
-display_categories: [research, work, fun]
-horizontal: false
+display_categories: [research, fun]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
