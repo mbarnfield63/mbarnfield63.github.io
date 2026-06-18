@@ -76,6 +76,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/mnras_2025/";
+            },},{id: "news-first-author-paper-machine-learning-isotope-shifts-in-molecular-energy-levels-jms-2026",
+          title: 'First-author paper — Machine learning isotope shifts in molecular energy levels (JMS, 2026)...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/jmolspec_2026/";
             },},{id: "projects-machine-learning-isotopologue-extrapolation",
           title: 'Machine Learning Isotopologue Extrapolation',
           description: "Published MLP framework predicting molecular energy level shifts across isotopologues — Journal of Molecular Spectroscopy (2026)",
