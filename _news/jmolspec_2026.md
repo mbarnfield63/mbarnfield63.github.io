@@ -1,7 +1,7 @@
 ---
 layout: post
-title: First-author paper — Machine learning isotope shifts in molecular energy levels (JMS, 2026)
-date: 2026-06-18 12:00:00
+title: Machine learning isotope shifts in molecular energy levels (JMS, 2026) - First author
+date: 2026-03-31 12:00:00
 inline: false
 related_posts: false
 ---
