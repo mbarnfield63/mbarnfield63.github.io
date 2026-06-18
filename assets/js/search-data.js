@@ -71,13 +71,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-paper-published-exomol-line-lists-for-12-co-isotopologues-mnras-2025",
-          title: 'Paper published — ExoMol line lists for 12 CO₂ isotopologues (MNRAS, 2025)',
+            },},{id: "news-exomol-line-lists-for-12-co-isotopologues-mnras-2025-co-authored",
+          title: 'ExoMol line lists for 12 CO₂ isotopologues (MNRAS, 2025) - Co-authored',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/mnras_2025/";
-            },},{id: "news-first-author-paper-machine-learning-isotope-shifts-in-molecular-energy-levels-jms-2026",
-          title: 'First-author paper — Machine learning isotope shifts in molecular energy levels (JMS, 2026)...',
+            },},{id: "news-machine-learning-isotope-shifts-in-molecular-energy-levels-jms-2026-first-author",
+          title: 'Machine learning isotope shifts in molecular energy levels (JMS, 2026) - First author...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/jmolspec_2026/";
