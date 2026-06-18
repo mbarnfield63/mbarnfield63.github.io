@@ -86,6 +86,11 @@ ninja.data = [{
           description: "Published MLP framework predicting molecular energy level shifts across isotopologues — Journal of Molecular Spectroscopy (2026)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/01_isotopologue_extrapolation/";
+            },},{id: "projects-football-analytics",
+          title: 'Football Analytics',
+          description: "Personal ML projects applying the same toolkit as my PhD to football data — a transfer market valuation model and a World Cup player similarity engine.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/04_football_analytics/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
