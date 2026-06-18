@@ -28,4 +28,6 @@ I’m a second-year PhD researcher at University College London, working in the 
 
 My research sits at the intersection of machine learning and molecular physics: I build the computational infrastructure that makes large-scale spectroscopic databases possible. Current projects include ML frameworks for isotopologue energy level extrapolation (published, *Journal of Molecular Spectroscopy* 2026), graph neural network pipelines for automated quantum number assignment across millions of molecular states, and the tooling that keeps the ExoMol database of exoplanet atmospheric opacity data accurate and up to date.
 
+Alongside my research, I apply the same toolkit to personal projects in [football analytics](/projects/04_football_analytics/) — building an XGBoost transfer market valuation pipeline (with SHAP-based feature attribution and market-premium analysis) and a GraphSAGE player similarity engine trained on scraped World Cup performance data.
+
 Before UCL I completed an MSci in Chemistry with Scientific Computing at the University of Bristol (First Class) and a Junior Science Apprenticeship at the National Physical Laboratory, where I worked across mass spectrometry imaging and nuclear metrology.
