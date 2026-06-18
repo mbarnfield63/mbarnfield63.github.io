@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: false
+description: Research from my PhD and fun side projects applying the same skills. Covering graph neural networks, molecular spectroscopy pipelines, and scientific database tooling.
 nav: true
 nav_order: 3
 display_categories: [research, fun]
