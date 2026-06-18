@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Paper published — ExoMol line lists for 12 CO₂ isotopologues (MNRAS, 2025)
-date: 2025-12-01 00:00:00
+date: 2025-12-02 12:00:00
 inline: false
 related_posts: false
 ---

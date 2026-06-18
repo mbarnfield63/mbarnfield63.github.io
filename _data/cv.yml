@@ -56,7 +56,7 @@ cv:
         end_date: 2016
 
     Publications:
-      - title: "Machine learning isotopologue extrapolation for molecular energy levels"
+      - title: "Machine learning isotope shifts in molecular energy levels"
         authors:
           - M.G. Barnfield
           - O.L. Polyansky
@@ -69,9 +69,20 @@ cv:
 
       - title: "ExoMol LXIII: CO₂ line lists for 12 isotopologues"
         authors:
-          - S.N. Yurchenko et al.
+          - S.N. Yurchenko
+          - M.G. Barnfield
+          - C.A. Bowesman
+          - R.P. Brady
+          - E.R. Guest
+          - K. Kefala
+          - Q-H. Ni
+          - A.N. Perri
+          - O.A. Smola
+          - A. Solokov
+          - C. Tao
+          - J. Tennyson
         publisher: Monthly Notices of the Royal Astronomical Society
-        releaseDate: 2025-11
+        releaseDate: 2025
         url: https://doi.org/10.1093/mnras/staf2135
         summary: "Co-author (M.G. Barnfield). Contributed GNN-based quantum number assignment pipeline producing 256,640 novel high-confidence assignments across 2.46M CO₂ quantum states."
 
