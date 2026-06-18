@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Research and engineering projects from my PhD at UCL ExoMol. Covers graph neural networks, molecular spectroscopy pipelines, and scientific database tooling.",
+          description: "false",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
