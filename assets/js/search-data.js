@@ -88,7 +88,7 @@ ninja.data = [{
               window.location.href = "/projects/01_isotopologue_extrapolation/";
             },},{id: "projects-football-analytics",
           title: 'Football Analytics',
-          description: "Personal ML projects applying the same toolkit as my PhD to football data — a transfer market valuation model and a World Cup player similarity engine.",
+          description: "Personal ML projects applying the same toolkit as my PhD to football data — a transfer market valuation model and a 150-year ELO rating system for World Cup 2026.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/04_football_analytics/";
             },},{id: "teachings-data-science-fundamentals",
