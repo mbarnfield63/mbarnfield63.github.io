@@ -1,0 +1,57 @@
+updated: 2026-07-26 20:45 UTC
+recent:
+- name: Richmond upon Thames - W13 Sat Long Run - 22km Hotspot
+  type: running
+  date: '2026-07-25'
+  distance_km: 22.03
+  duration_min: 127.0
+  avg_pace_per_km: '5:46'
+- name: 'Richmond upon Thames - W13 Wed Easy Run #2 - 7km Easy R'
+  type: running
+  date: '2026-07-22'
+  distance_km: 7.02
+  duration_min: 40.7
+  avg_pace_per_km: '5:48'
+- name: Richmond upon Thames - W13 Mon Easy Run - 6.5km Easy Ru
+  type: running
+  date: '2026-07-20'
+  distance_km: 6.51
+  duration_min: 37.7
+  avg_pace_per_km: '5:48'
+- name: Richmond upon Thames - W12 Sat Long Run - 19km Long Run
+  type: running
+  date: '2026-07-18'
+  distance_km: 19.02
+  duration_min: 120.7
+  avg_pace_per_km: '6:21'
+- name: Richmond upon Thames - W12 Thu Easy Run - 7km Easy Run
+  type: running
+  date: '2026-07-16'
+  distance_km: 7.02
+  duration_min: 43.6
+  avg_pace_per_km: '6:13'
+records:
+- label: 1 km
+  value: '4:10'
+  date: '2026-04-27'
+  activity_name: Richmond upon Thames - W5 Mon Tempo - Rolling 300s (5km
+- label: 1 mile
+  value: '6:59'
+  date: '2026-04-27'
+  activity_name: Richmond upon Thames - W5 Mon Tempo - Rolling 300s (5km
+- label: 5K
+  value: '25:03'
+  date: '2026-03-29'
+  activity_name: Richmond upon Thames - W12 Sun Race - Kew the Run Half
+- label: 10K
+  value: '50:29'
+  date: '2026-03-29'
+  activity_name: Richmond upon Thames - W12 Sun Race - Kew the Run Half
+- label: Half Marathon
+  value: '1:47:50'
+  date: '2026-03-29'
+  activity_name: Richmond upon Thames - W12 Sun Race - Kew the Run Half
+- label: Longest Run
+  value: 22.03 km
+  date: '2026-07-25'
+  activity_name: Richmond upon Thames - W13 Sat Long Run - 22km Hotspot
