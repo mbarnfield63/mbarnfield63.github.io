@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-running",
+          title: "running",
+          description: "Recent runs and personal bests, synced daily from Garmin.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/running/";
+          },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",

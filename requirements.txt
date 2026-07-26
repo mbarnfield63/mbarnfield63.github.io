@@ -1,3 +1,4 @@
+garminconnect
 nbconvert
 pyyaml
 rendercv[full]
