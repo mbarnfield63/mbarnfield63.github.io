@@ -21,7 +21,7 @@ ExoMol line lists come as `.states` and `.trans` files with no column headers. W
 - `sidecar` writes a schema file next to the data, and `inject` writes a labelled copy. The original files are never changed.
 - Pointed at a folder, `convert` handles every chunk of a large line list in one go, and loads the `.states` file only once.
 
-The default engine uses only the Python standard library. An optional Polars engine gives the same output byte for byte, about 1.6 times faster on a 7.2 million row H₂S file.
+The default engine uses only the Python standard library. An optional Polars engine gives byte-identical output and makes the quantum-number join about 1.6 times faster on a 7.2 million row H₂S file.
 
 The code is public at [headers-for-ExoMol](https://github.com/mbarnfield63/headers-for-ExoMol). It is not on PyPI yet.
 
