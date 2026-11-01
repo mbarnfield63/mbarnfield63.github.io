@@ -1,13 +1,33 @@
 ---
 ---
 
+@article{barnfield2026jqsrt,
+    author = {Barnfield, Marco G. and Yurchenko, Sergei N. and Tennyson, Jonathan},
+    title = {Automated AFGL quantum number assignment for CO₂ isotopologues using a graph neural network},
+    selected = {true},
+    abbr = {JQSRT},
+    journal = {Journal of Quantitative Spectroscopy and Radiative Transfer},
+    volume = {365},
+    pages = {110111},
+    year = {2026},
+    month = {12},
+    doi = {10.1016/j.jqsrt.2026.110111},
+    url = {https://doi.org/10.1016/j.jqsrt.2026.110111},
+    code = {https://github.com/mbarnfield63/GNN_CO2_QN_assignment},
+    abstract = {Accurate quantum number assignment for calculated molecular energy levels is a critical bottleneck in generating line broadening parameters for comprehensive line lists for radiative transfer applications. We present an automated pipeline for assigning Air Force Geophysics Laboratory (AFGL) quantum numbers to CO$_2$ calculated rovibrational states lying below 15 000 cm$^{-1}$ across all 12 stable isotopologues. A GraphSAGE graph neural network is trained transductively on empirical (MARVEL) energy levels, exploiting inter-isotopologue perturbation chains and intra-isotopologue rotational ladder edges to propagate assignment information to unlabelled calculated states. Physical uniqueness is enforced locally by a Hungarian algorithm solver operating within groups of states sharing the same polyad, rotational quantum number, and parity. A five-generation bootstrap loop iteratively promotes high-confidence predictions into the training set, expanding coverage without additional labelling effort. The pipeline assigns 224 650 previously unlabelled states over 12 isotopologues, accounting for 10.7\% of all available states (including MARVEL-derived levels), with coverage now increased to 97.4\% below 5 000 cm$^{-1}$. The pipeline includes a novel decision tree method for converting AFGL to Herzberg notation in asymmetric isotopologues, while the architecture and Hungarian uniqueness enforcement are applicable beyond CO$_2$, any molecular system with a conserved polyad-like quantum number and a large body of unlabelled computed states is a natural target for this approach, suggesting a pathway toward automated quantum number annotation for the next generation of large-scale computed line lists.},
+}
+
 @article{barnfield2026mliso,
     author = {Barnfield, Marco G. and Polyansky, Oleg L. and Yurchenko, Sergei N. and Tennyson, Jonathan},
     title = {Machine learning isotope shifts in molecular energy levels},
     selected = {true},
     abbr = {JMS},
     journal = {Journal of Molecular Spectroscopy},
+    volume = {418-419},
+    pages = {112084},
     year = {2026},
+    month = {7},
+    code = {https://github.com/mbarnfield63/ML_Isotopologue_Extrapolation},
     doi = {10.1016/j.jms.2026.112084},
     url = {https://doi.org/10.1016/j.jms.2026.112084},
     abstract = {A comprehensive machine learning framework is designed to mitigate inaccuracies in minor isotopologue energy levels by modelling the residual errors of the isotopologue extrapolation (IE) method used within the ExoMol project. A fully connected neural network architecture for carbon dioxide (CO$_2$) predicts energy corrections with high fidelity, reducing the mean absolute error (MAE) relative to the original IE approach for more than 87\% of the levels when benchmarked against empirical (MARVEL) energies. A novel hybrid, molecule-aware transfer learning architecture successfully propagates correction patterns from the data-rich CO$_2$ system to the data-poor carbon monoxide (CO) system, yielding MAE improvements in over 93\% of CO samples. Updated and improved line lists are presented for 11 CO$_2$ isotopologues and energy levels for excited states of CO isotopologues are predicted.},

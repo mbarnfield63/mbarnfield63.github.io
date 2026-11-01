@@ -56,6 +56,16 @@ cv:
         end_date: 2016
 
     Publications:
+      - title: "Automated AFGL quantum number assignment for CO₂ isotopologues using a graph neural network"
+        authors:
+          - M.G. Barnfield
+          - S.N. Yurchenko
+          - J. Tennyson
+        publisher: Journal of Quantitative Spectroscopy and Radiative Transfer
+        releaseDate: 2026
+        url: https://doi.org/10.1016/j.jqsrt.2026.110111
+        summary: "First author. Graph neural network pipeline that labelled 224,650 previously unlabelled CO₂ states across 12 isotopologues."
+
       - title: "Machine learning isotope shifts in molecular energy levels"
         authors:
           - M.G. Barnfield
@@ -65,9 +75,9 @@ cv:
         publisher: Journal of Molecular Spectroscopy
         releaseDate: 2026
         url: https://doi.org/10.1016/j.jms.2026.112084
-        summary: "First-author. Published PyTorch MLP framework for predicting molecular energy level shifts across isotopologue variants."
+        summary: "First author. Neural network corrections to isotopologue energy levels, improving more than 87% of CO₂ levels and, by transfer learning, more than 93% of CO levels."
 
-      - title: "ExoMol LXIII: CO₂ line lists for 12 isotopologues"
+      - title: "ExoMol line lists – LXIII. ExoMol line lists for 12 isotopologues of CO₂"
         authors:
           - S.N. Yurchenko
           - M.G. Barnfield
@@ -84,7 +94,7 @@ cv:
         publisher: Monthly Notices of the Royal Astronomical Society
         releaseDate: 2025
         url: https://doi.org/10.1093/mnras/staf2135
-        summary: "Co-author (M.G. Barnfield). Contributed GNN-based quantum number assignment pipeline producing 256,640 novel high-confidence assignments across 2.46M CO₂ quantum states."
+        summary: "Co-author. Contributed the machine-learning AFGL quantum number assignments for the line lists."
 
     Experience:
       - company: Fluorochem Ltd.
