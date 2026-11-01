@@ -167,8 +167,8 @@ cv:
         summary: "Co-author."
 
     Talks:
-      - label: High Resolution Molecular Spectroscopy (HRMS) 2026, Prague
-        details: Contributed talk
+      - label: Contributed talk
+        details: '"Machine Learning for Isotopologue Extrapolation in the ExoMol Project", Exoplanetary Atmospheres mini-symposium, High Resolution Molecular Spectroscopy (HRMS) 2026, Prague'
 
     Projects:
       - name: Football transfer fee model
