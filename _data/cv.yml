@@ -1,10 +1,9 @@
 cv:
   name: Marco G. Barnfield
-  label: PhD Researcher — Machine Learning & Molecular Physics
+  headline: PhD Researcher, Machine Learning and Molecular Physics
   email: marco.barnfield.24@ucl.ac.uk
   location: London, UK
-  image: ""
-  summary: Second-year PhD researcher at UCL ExoMol, building ML frameworks for large-scale molecular spectroscopy databases. Published first-author research in the Journal of Molecular Spectroscopy (2026) on machine learning isotopologue extrapolation.
+  website: https://mbarnfield63.github.io
 
   social_networks:
     - network: GitHub
@@ -15,72 +14,133 @@ cv:
       username: KXJVCS0AAAAJ
 
   sections:
+    Summary:
+      - Third-year PhD researcher in the ExoMol group at University College London. I build machine learning tools for large molecular spectroscopy databases, used to model the atmospheres of exoplanets. I published two first-author papers in 2026, in the Journal of Molecular Spectroscopy and in JQSRT.
+
+    Experience:
+      - company: University College London, Department of Physics and Astronomy
+        position: Doctoral Researcher, Machine Learning and Astrophysical Spectroscopy
+        location: London, UK
+        start_date: 2024
+        end_date: present
+        summary: "Supervisors: Prof. Jonathan Tennyson FRS and Prof. Sergei N. Yurchenko"
+        highlights:
+          - "Published a first-author paper on neural network corrections to the energy levels of rare isotopic molecules (Journal of Molecular Spectroscopy, 2026)."
+          - "Built a graph neural network pipeline that assigned quantum numbers to 224,650 unlabelled CO₂ states across 12 isotopologues (first author, JQSRT, 2026)."
+          - "Built an LLM-assisted pipeline (OCR, then markdown, then structured extraction) that turns published spectroscopy papers into machine-readable datasets, plus an agent that searches the literature for relevant papers."
+          - "Built a PostgreSQL database and read-only REST API for MARVEL energy level data: 31 runs from 19 publications, covering 29 isotopologues."
+          - "Lead graph neural network work on spectroscopic network solving (MARVEL_GNN) and on isotopologue energy level extrapolation."
+          - "Rebuilt the spectroscopic network solving engine (MARVEL v5) with a Python backend and a React, TypeScript and D3.js frontend, using test-driven development."
+          - "Maintain a 365-entry knowledge base of the ExoMol literature (ExoMol Wiki), with automated validation checks."
+
+      - company: Fluorochem Ltd.
+        position: Consultant and Scientific Content Writer
+        location: Remote
+        start_date: 2024
+        end_date: 2025
+        highlights:
+          - "Gave consultancy on chemical synthesis and organometallics to support new product development and new website content."
+
+      - company: University of Bristol
+        position: Royal Society of Chemistry Summer Research Student
+        location: Bristol, UK
+        start_date: 2023-06
+        end_date: 2023-09
+        summary: "Project: Machine Learning Emulator for Atmospheric Trace Gas Transport. Supervisor: Prof. Matt Rigby"
+        highlights:
+          - "Scaled a proof-of-concept ML emulator for greenhouse gas transport from its original domain to the whole UK and all regional methane measurement sites."
+          - "Measured and improved the computational efficiency of the larger model on the BluePebble4 HPC cluster."
+          - "Processed and plotted large spatial flux and emissions datasets with Python's xarray."
+
+      - company: UCL Geography
+        position: London NERC DTP Summer Intern
+        location: London, UK
+        start_date: 2022-06
+        end_date: 2022-09
+        summary: "Project: Influence of mega constellations on our atmosphere. Supervisor: Dr Eloise Marais"
+        highlights:
+          - "Studied the NOₓ and Al₂O₃ emissions from launching and maintaining satellite mega constellations."
+          - "Gathered and analysed 3 large datasets from several sources in Python."
+          - "Presented the work at the Natural History Museum, on the environmental impact of the new space race."
+
+      - company: National Physical Laboratory
+        position: Junior Science Apprentice
+        location: Teddington, UK
+        start_date: 2017
+        end_date: 2019
+        highlights:
+          - "NiCE-MSi: optimised MALDI-MSi matrix preparation, and used DESI-MSi, the HTX TM-Sprayer and MATLAB. Helped the lab manager with daily operations and inventory."
+          - "Nuclear Metrology: alpha and gamma spectroscopy, ICP-MS, and separation of ⁹³Zr and ⁹³Nb with anion exchange resin. Sorted and organised the safe storage and removal of nuclear waste."
+
     Education:
       - institution: University College London
         location: London, UK
         url: https://www.ucl.ac.uk/
+        degree: PhD
         area: Physics and Machine Learning
-        studyType: PhD
         start_date: 2024
         end_date: present
         highlights:
           - "Project: Machine Learning Isotopologue Extrapolation for use in Astronomical Spectroscopy"
-          - "Supervisors: Prof. Jonathan Tennyson FRS & Prof. Sergei N. Yurchenko"
-          - "Funded by the EPSRC Centre for Doctoral Training in Data Intensive Science & Industry (DISI)"
-          - "Chaired external consultancy project building an ML pipeline for flood defence analysis (USA)"
+          - "Supervisors: Prof. Jonathan Tennyson FRS and Prof. Sergei N. Yurchenko"
+          - "Funded by the EPSRC Centre for Doctoral Training in Data Intensive Science and Industry (DISI)"
+          - "Postgraduate courses from Physics of Exoplanets to Statistical Data Analysis"
+          - "Chaired an external consultancy project building a machine learning pipeline to analyse flood defences in the USA (Fathom, ML research group industry placement)"
 
       - institution: University of Bristol
         location: Bristol, UK
         url: https://www.bristol.ac.uk/
+        degree: MSci
         area: Chemistry with Scientific Computing
-        studyType: MSci
         start_date: 2019
         end_date: 2024
-        score: "First Class Honours"
         highlights:
-          - "Master's Project: Photochemistry of Hot Water for Hot Jupiter Exoplanet Atmospheric Modelling — Supervisor: Prof. Andrew Orr-Ewing FRS"
-          - "First class average in years 1 & 2; highest mark in year for Advanced Data Science"
-          - "Chair, Group Project in Scientific Computing — contributed to published photolysis rate software (In Silico Photochemistry Group, Supervisor: Prof. Basile Curchod)"
+          - "First Class Honours"
+          - "Master's project: Photochemistry of Hot Water for Hot Jupiter Exoplanet Atmospheric Modelling. Supervisor: Prof. Andrew Orr-Ewing FRS"
+          - "First class average in years 1 and 2. Highest mark in the year for Advanced Data Science in year 3."
+          - "Chaired the year 3 Group Project in Scientific Computing, which contributed to published software for photolysis rates of volatile organic compounds (In Silico Photochemistry Group, supervisor: Prof. Basile Curchod)"
+          - "Computing in C++ and Python: data analysis (pandas, NumPy), plotting (Matplotlib, Seaborn, Plotly), parallel computing (OpenMP, MPI, Cython, Numba), machine learning (scikit-learn) and SQL"
 
       - institution: National Physical Laboratory
         location: Teddington, UK
-        area: Applied Science
-        studyType: "L3 BTEC Diploma (D*D*) & Laboratory Technician Standard (Distinction)"
+        area: "Applied Science L3 BTEC Diploma (D∗D∗) and Laboratory Technician Standard (Distinction)"
         start_date: 2017
         end_date: 2019
 
       - institution: Hampton School
         location: Hampton, UK
-        studyType: "10 GCSEs (A*–B)"
+        area: "10 GCSEs (A* to B)"
         start_date: 2011
         end_date: 2016
 
     Publications:
       - title: "Automated AFGL quantum number assignment for CO₂ isotopologues using a graph neural network"
         authors:
-          - M.G. Barnfield
+          - "**M.G. Barnfield**"
           - S.N. Yurchenko
           - J. Tennyson
-        publisher: Journal of Quantitative Spectroscopy and Radiative Transfer
-        releaseDate: 2026
+        journal: Journal of Quantitative Spectroscopy and Radiative Transfer 365, 110111
+        date: 2026-12
+        doi: 10.1016/j.jqsrt.2026.110111
         url: https://doi.org/10.1016/j.jqsrt.2026.110111
         summary: "First author. Graph neural network pipeline that labelled 224,650 previously unlabelled CO₂ states across 12 isotopologues."
 
       - title: "Machine learning isotope shifts in molecular energy levels"
         authors:
-          - M.G. Barnfield
+          - "**M.G. Barnfield**"
           - O.L. Polyansky
           - S.N. Yurchenko
           - J. Tennyson
-        publisher: Journal of Molecular Spectroscopy
-        releaseDate: 2026
+        journal: Journal of Molecular Spectroscopy 418-419, 112084
+        date: 2026-07
+        doi: 10.1016/j.jms.2026.112084
         url: https://doi.org/10.1016/j.jms.2026.112084
         summary: "First author. Neural network corrections to isotopologue energy levels, improving more than 87% of CO₂ levels and, by transfer learning, more than 93% of CO levels."
 
       - title: "ExoMol line lists – LXIII. ExoMol line lists for 12 isotopologues of CO₂"
         authors:
           - S.N. Yurchenko
-          - M.G. Barnfield
+          - "**M.G. Barnfield**"
           - C.A. Bowesman
           - R.P. Brady
           - E.R. Guest
@@ -91,86 +151,75 @@ cv:
           - A. Solokov
           - C. Tao
           - J. Tennyson
-        publisher: Monthly Notices of the Royal Astronomical Society
-        releaseDate: 2025
+        journal: Monthly Notices of the Royal Astronomical Society 545(3), staf2135
+        date: 2025-12
+        doi: 10.1093/mnras/staf2135
         url: https://doi.org/10.1093/mnras/staf2135
         summary: "Co-author. Contributed the machine-learning AFGL quantum number assignments for the line lists."
 
-    Experience:
-      - company: Fluorochem Ltd.
-        position: Consultant & Scientific Content Writer
-        location: Remote
-        start_date: 2024
-        end_date: 2025
-        highlights:
-          - "Developed SEO-optimised scientific web content focused on photochemistry and organometallics"
+      - title: "Leveraging Machine Learning for the Ariel Space Mission: A White Paper from the Ariel Machine Learning Working Group"
+        authors:
+          - K.H. Yip
+          - "**M.G. Barnfield**"
+          - et al.
+        journal: RAS Techniques and Instruments
+        date: In review
+        summary: "Co-author."
 
-      - company: University of Bristol
-        position: RSC Summer Research Student
-        location: Bristol, UK
-        start_date: 2023-06
-        end_date: 2023-09
-        summary: "Project: Machine Learning Emulator for Atmospheric Trace Gas Transport — Supervisor: Prof. Matt Rigby"
-        highlights:
-          - "Scaled a proof-of-concept ML emulator for UK greenhouse gas transport to full national domain coverage"
-          - "Optimised computational performance on the BluePebble4 HPC cluster"
-          - "Processed large-scale spatial flux and emissions datasets using Python xarray"
+    Talks:
+      - label: High Resolution Molecular Spectroscopy (HRMS) 2026, Prague
+        details: Contributed talk
 
-      - company: UCL Geography
-        position: London NERC DTP Summer Intern
-        location: London, UK
-        start_date: 2022-06
-        end_date: 2022-09
-        summary: "Project: Influence of mega constellations on our atmosphere — Supervisor: Dr Eloise Marais"
-        highlights:
-          - "Investigated NOₓ and Al₂O₃ emissions from mega constellation launches and maintenance"
-          - "Presented findings at the Natural History Museum on the environmental impacts of the new space race"
+    Projects:
+      - name: Football transfer fee model
+        date: 2026
+        url: https://github.com/mbarnfield63/Football-Transfer-Evaluation
+        summary: "End-to-end machine learning pipeline that estimates what a football transfer should cost, and where clubs over- or underpay. Python, SQL, XGBoost, Optuna, SHAP."
 
-      - company: National Physical Laboratory
-        position: Junior Science Apprentice — NiCE-MSi
-        location: Teddington, UK
-        start_date: 2018
-        end_date: 2019
-        highlights:
-          - "MALDI-MSi matrix preparation optimisation; operated DESI-MSi, HTX TM-Sprayer, and MATLAB"
-          - "Assisted lab manager with day-to-day operations and inventory management"
+      - name: World Cup 2026 Elo model
+        date: 2026
+        url: https://github.com/mbarnfield63/WorldCup26-ELO
+        summary: "Elo ratings from 150 years of international results, used to measure which teams over- or under-performed in the group stage. Python, pandas, soccerdata."
 
-      - company: National Physical Laboratory
-        position: Junior Science Apprentice — Nuclear Metrology
-        location: Teddington, UK
-        start_date: 2017
-        end_date: 2019
-        highlights:
-          - "Separation of ⁹³Zr & ⁹³Nb using anion exchange resin and ICP-MS; alpha- and gamma-spectroscopy"
-          - "Managed categorisation and safe storage of nuclear waste"
+      - name: English league pyramid Elo model
+        date: 2026
+        summary: "Elo ratings for all four English professional tiers since 1993-94 (67,245 matches), benchmarked against bookmaker odds. Python, pandas, Plotly."
 
-    Skills:
-      - name: Machine Learning
-        level: Advanced
-        icon: fa-solid fa-brain
-        keywords: "Graph Neural Networks (GraphSAGE, GATv2), PyTorch, PyTorch Geometric, scikit-learn, uncertainty quantification, bootstrap retraining, confidence calibration, CUDA"
+      - name: World Cup player embedding model (in progress)
+        date: 2026
+        summary: "Web-scraping pipeline (397 players, 38 leagues) feeding a GraphSAGE player embedding model for scouting and valuation. Python, PyTorch Geometric, BeautifulSoup."
 
-      - name: Scientific Computing
-        level: Advanced
-        icon: fa-solid fa-flask
-        keywords: "NumPy, Pandas, SciPy, Matplotlib, xarray, HPC (MPI, OpenMP, Cython, Numba)"
+    Technical Skills:
+      - label: Machine learning
+        details: "Graph neural networks (GraphSAGE, PyTorch Geometric), PyTorch, uncertainty quantification, Hungarian-algorithm assignment, XGBoost with Optuna, SHAP, self-training with confidence gates, scikit-learn"
+      - label: Programming and data
+        details: "Python (NumPy, pandas, SciPy, Matplotlib, Seaborn, Plotly, xarray), SQL, PostgreSQL, DuckDB, Git"
+      - label: Web and tooling
+        details: "FastAPI, React, TypeScript, D3.js, Docker, test-driven development (pytest), config-driven experiments"
+      - label: HPC
+        details: "SLURM clusters (UCL Hypatia, Bristol BluePebble4), Apptainer containers, OpenMP, MPI, Cython, Numba"
+      - label: LLM and agentic systems
+        details: "Claude Code agentic workflows, LLM-based literature extraction pipelines, locally served open-weight models (vLLM), automated validation pipelines"
+      - label: Domain knowledge
+        details: "Molecular spectroscopy (rotational and vibrational quantum numbers, isotopologues, spectroscopic networks), atmospheric chemistry, exoplanet atmospheres, the ExoMol database"
 
-      - name: Programming
-        level: Advanced
-        icon: fa-solid fa-code
-        keywords: "Python, C++, SQL, YAML, LaTeX"
+    Training:
+      - bullet: "Microsoft 365, STL Business Training"
+      - bullet: "MATLAB Onramp and Fundamentals, MathWorks"
+      - bullet: "Mental Health First Aid, MHFA England"
+      - bullet: "Radiation Protection Supervisor, RADMAN Associates"
+      - bullet: "Project Griffin, National Counter Terrorism Security Office"
 
-    Awards:
-      - title: EPSRC DISI CDT Studentship
-        date: 2024
-        awarder: University College London
-        summary: Fully funded PhD studentship as part of the EPSRC Centre for Doctoral Training in Data Intensive Science & Industry.
+    Other:
+      - bullet: "President and 1st Team Captain, University of Bristol Chemistry Football (2022 to 2024)"
+      - bullet: "Grade 8 Trumpet, Trinity Guildhall (2011)"
+      - bullet: "Custom PC building, diagnostics and repairs"
 
     References:
       - name: Prof. Jonathan Tennyson FRS
         icon: fa-solid fa-user
-        reference: "Primary PhD Supervisor. Massey Professor of Physics, Department of Physics and Astronomy, UCL — j.tennyson@ucl.ac.uk"
+        summary: "Primary PhD supervisor. Massey Professor of Physics, Department of Physics and Astronomy, UCL. j.tennyson@ucl.ac.uk"
 
       - name: Prof. Andrew Orr-Ewing FRS
         icon: fa-solid fa-user
-        reference: "MSci Project Supervisor. Professor, School of Chemistry, University of Bristol — A.Orr-Ewing@bristol.ac.uk"
+        summary: "MSci project supervisor. Professor, School of Chemistry, University of Bristol. A.Orr-Ewing@bristol.ac.uk"
