@@ -1,8 +1,11 @@
 name: Update Garmin Running Data
 
 on:
-  schedule:
-    - cron: "0 12 * * *" # 12:00 UTC daily
+  # Schedule paused: the saved Garmin token (GARMIN_TOKEN_B64) expired and every
+  # run since 2026-07-28 fails with API Error 401. Refresh the secret, then
+  # uncomment the schedule.
+  # schedule:
+  #   - cron: "0 12 * * *" # 12:00 UTC daily
   workflow_dispatch:
 
 jobs:
