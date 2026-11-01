@@ -162,7 +162,7 @@ collections:
   teachings:
     output: true
   toolkit:
-    output: true
+    output: false # hidden for now
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

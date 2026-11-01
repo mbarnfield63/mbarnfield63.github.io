@@ -1,4 +1,5 @@
 ---
+published: false # hidden for now; remove this line to restore
 layout: page
 title: running
 permalink: /running/
