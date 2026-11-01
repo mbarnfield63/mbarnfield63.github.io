@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a second-year PhD researcher at University College London, working in the [ExoMol](https://exomol.com/) molecular spectroscopy group under [Prof. Jonathan Tennyson FRS](https://profiles.ucl.ac.uk/3928-jonathan-tennyson). My studies are funded by UCL’s Centre for Doctoral Training in [Data Intensive Science & Industry (DISI)](https://www.ucl.ac.uk/data-intensive-science-industry).
+I’m a third-year PhD researcher at University College London, working in the [ExoMol](https://exomol.com/) molecular spectroscopy group under [Prof. Jonathan Tennyson FRS](https://profiles.ucl.ac.uk/3928-jonathan-tennyson). My studies are funded by UCL’s Centre for Doctoral Training in [Data Intensive Science & Industry (DISI)](https://www.ucl.ac.uk/data-intensive-science-industry).
 
 My research sits at the intersection of machine learning and molecular physics: I build the computational infrastructure that makes large-scale spectroscopic databases possible. Current projects include machine learning corrections for isotopologue energy levels (published, _Journal of Molecular Spectroscopy_ 2026), a graph neural network pipeline for automated quantum number assignment (published, _JQSRT_ 2026), a database and API for MARVEL energy level data, and agentic AI workflows for research bottlenecks such as data scraping and literature review.
 
