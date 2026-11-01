@@ -1,2 +1,4 @@
-# Force LF line endings, needed for Docker to work on Windows
+# Force LF line endings, needed for Docker to work on Windows.
+# Overrides core.autocrlf=true from Git for Windows, which checks files out as CRLF.
+* text=auto eol=lf
 *.sh text eol=lf
