@@ -23,26 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-ai-toolkit",
-          title: "AI toolkit",
-          description: "How I actually run Claude Code day to day — custom skills, hooks, and agentic workflows built on top of PhD research work.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/toolkit/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "Academic CV — PhD researcher in machine learning and molecular physics at UCL ExoMol.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-running",
-          title: "running",
-          description: "Recent runs and personal bests, synced daily from Garmin.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/running/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
