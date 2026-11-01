@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-ai-toolkit",
+          title: "AI toolkit",
+          description: "How I actually run Claude Code day to day — custom skills, hooks, and agentic workflows built on top of PhD research work.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/toolkit/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "Academic CV — PhD researcher in machine learning and molecular physics at UCL ExoMol.",
@@ -74,16 +81,41 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/jmolspec_2026/";
-            },},{id: "projects-machine-learning-isotopologue-extrapolation",
-          title: 'Machine Learning Isotopologue Extrapolation',
-          description: "Published MLP framework predicting molecular energy level shifts across isotopologues — Journal of Molecular Spectroscopy (2026)",
+            },},{id: "news-automated-quantum-number-assignment-for-co-jqsrt-2026-first-author",
+          title: 'Automated quantum number assignment for CO₂ (JQSRT, 2026) - First author',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/jqsrt_2026/";
+            },},{id: "projects-machine-learning-isotope-shifts",
+          title: 'Machine learning isotope shifts',
+          description: "Neural network corrections to the energy levels of rare isotopic molecules. Published in the Journal of Molecular Spectroscopy (2026).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/01_isotopologue_extrapolation/";
+            },},{id: "projects-quantum-number-assignment-for-co",
+          title: 'Quantum number assignment for CO₂',
+          description: "A graph neural network that labels computed CO₂ energy levels with quantum numbers, across all 12 stable isotopologues. Published in JQSRT (2026).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/02_qn_prediction/";
+            },},{id: "projects-exomol-llm-wiki",
+          title: 'ExoMol LLM wiki',
+          description: "A source-checked knowledge base of the ExoMol literature, built with an LLM and kept honest by deterministic checks.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/03_exomol_wiki/";
             },},{id: "projects-football-analytics",
-          title: 'Football Analytics',
-          description: "Personal ML projects applying the same toolkit as my PhD to football data — a transfer market valuation model and a 150-year ELO rating system for World Cup 2026.",
+          title: 'Football analytics',
+          description: "Side projects applying my PhD toolkit to football data. A transfer fee model, Elo ratings for the 2026 World Cup and the English league pyramid, and a study of crowds and referees.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/04_football_analytics/";
+            },},{id: "projects-marvel-database",
+          title: 'MARVEL database',
+          description: "One database for MARVEL energy level data across many molecules, with a read-only API and a website in development.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/05_marvel_database/";
+            },},{id: "projects-headers-for-exomol",
+          title: 'Headers for ExoMol',
+          description: "A command-line tool that adds column labels to ExoMol data files and converts them to CSV, without changing the originals.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/06_exomol_headers/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
@@ -94,6 +126,26 @@ ninja.data = [{
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
+            },},{id: "toolkit-context-engineering",
+          title: 'Context engineering',
+          description: "Token limits are the real constraint on agentic coding — the whole setup exists to manage what&#39;s in the context window, not to add features for their own sake.",
+          section: "Toolkit",handler: () => {
+              window.location.href = "/toolkit/01-context-engineering/";
+            },},{id: "toolkit-file-structure-amp-claude-md",
+          title: 'File structure &amp;amp; CLAUDE.md',
+          description: "One segmented CLAUDE.md per research project, with get up to speed / save state hooking into plain Obsidian markdown — not a single global config.",
+          section: "Toolkit",handler: () => {
+              window.location.href = "/toolkit/02-file-structure-and-claude-md/";
+            },},{id: "toolkit-skills-plugins-amp-hooks",
+          title: 'Skills, plugins &amp;amp; hooks',
+          description: "The essentials — graphify, ponytail, grilling (Matt Pocock), TDD — and the hooks that run them automatically without being asked.",
+          section: "Toolkit",handler: () => {
+              window.location.href = "/toolkit/03-skills-plugins-and-hooks/";
+            },},{id: "toolkit-workflow-strategy-amp-takeaways",
+          title: 'Workflow strategy &amp;amp; takeaways',
+          description: "A project idea, start to finish — the step-by-step pipeline from grilling out a plan to the commit that closes the loop.",
+          section: "Toolkit",handler: () => {
+              window.location.href = "/toolkit/04-workflow-strategy-and-takeaways/";
             },},{
         id: 'social-email',
         title: 'email',
