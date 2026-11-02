@@ -1,5 +1,0 @@
-garminconnect
-nbconvert
-pyyaml
-rendercv[full]
-scholarly
