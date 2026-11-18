@@ -208,6 +208,12 @@ exclude:
   - readme_preview/
   - requirements.txt
   - SEO.md
+  - toolkit/README.md
+  - toolkit/CLAUDE.md
+  - toolkit/LICENSE
+  - toolkit/LICENSE-CONTENT.md
+  - toolkit/scripts
+  - toolkit/examples/files
   - TROUBLESHOOTING.md
   - vendor
 keep_files:
@@ -243,6 +249,30 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  # AI Toolkit: Markdown from mbarnfield63/ai-toolkit, cloned into toolkit/ at build time
+  - scope:
+      path: "toolkit"
+    values:
+      layout: page
+      render_with_liquid: false
+  - scope:
+      path: "toolkit/guide/README.md"
+    values:
+      permalink: /toolkit/
+      nav: true
+      nav_order: 4
+  - scope:
+      path: "toolkit/kit/README.md"
+    values:
+      permalink: /toolkit/kit/
+  - scope:
+      path: "toolkit/examples/README.md"
+    values:
+      permalink: /toolkit/examples/
+  - scope:
+      path: "toolkit/talks/README.md"
+    values:
+      permalink: /toolkit/talks/
 
 sass:
   style: compressed
