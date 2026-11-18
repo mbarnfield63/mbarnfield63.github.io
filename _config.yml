@@ -253,6 +253,12 @@ defaults:
     values:
       layout: page
       render_with_liquid: false
+      _styles: >
+        article table { width: 100%; margin: 0.5rem 0 1.5rem; border-collapse: collapse; }
+        article th, article td { padding: 0.45rem 0.75rem 0.45rem 0; vertical-align: top; border-bottom: 1px solid var(--global-divider-color); }
+        article thead th { border-bottom-width: 2px; }
+        article td code { white-space: nowrap; }
+        article h2 { margin-top: 2rem; }
   - scope:
       path: "toolkit/guide/README.md"
     values:
