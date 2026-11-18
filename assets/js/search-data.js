@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-ai-toolkit",
+          title: "AI Toolkit",
+          description: "How I work with AI agents day to day, in reading order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/toolkit/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "Academic CV — PhD researcher in machine learning and molecular physics at UCL ExoMol.",
