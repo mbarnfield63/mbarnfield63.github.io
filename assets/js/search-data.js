@@ -79,8 +79,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/jqsrt_2026/";
-            },},{id: "news-spoke-at-the-ucl-physics-amp-amp-astronomy-llm-discussion-series-on-working-with-agents-a-shared-vault-as-memory-an-orchestrator-running-my-marvel-pipeline-and-what-went-wrong-the-setup-is-now-written-up-as-my-ai-toolkit-talk-notes",
-          title: 'Spoke at the UCL Physics &amp;amp;amp; Astronomy LLM Discussion Series on working with...',
+            },},{id: "news-talk-working-with-agents-llm-discussion-series-ucl-astronomy",
+          title: 'Talk: Working with agents, LLM Discussion Series (UCL Astronomy)',
           description: "",
           section: "News",},{id: "projects-machine-learning-isotope-shifts",
           title: 'Machine learning isotope shifts',
