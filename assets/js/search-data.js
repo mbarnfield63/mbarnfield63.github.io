@@ -104,26 +104,6 @@ ninja.data = [{
           description: "A command-line tool that adds column labels to ExoMol data files and converts them to CSV, without changing the originals.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/06_exomol_headers/";
-            },},{id: "toolkit-context-engineering",
-          title: 'Context engineering',
-          description: "Token limits are the real constraint on agentic coding — the whole setup exists to manage what&#39;s in the context window, not to add features for their own sake.",
-          section: "Toolkit",handler: () => {
-              window.location.href = "/toolkit/01-context-engineering/";
-            },},{id: "toolkit-file-structure-amp-claude-md",
-          title: 'File structure &amp;amp; CLAUDE.md',
-          description: "One segmented CLAUDE.md per research project, with get up to speed / save state hooking into plain Obsidian markdown — not a single global config.",
-          section: "Toolkit",handler: () => {
-              window.location.href = "/toolkit/02-file-structure-and-claude-md/";
-            },},{id: "toolkit-skills-plugins-amp-hooks",
-          title: 'Skills, plugins &amp;amp; hooks',
-          description: "The essentials — graphify, ponytail, grilling (Matt Pocock), TDD — and the hooks that run them automatically without being asked.",
-          section: "Toolkit",handler: () => {
-              window.location.href = "/toolkit/03-skills-plugins-and-hooks/";
-            },},{id: "toolkit-workflow-strategy-amp-takeaways",
-          title: 'Workflow strategy &amp;amp; takeaways',
-          description: "A project idea, start to finish — the step-by-step pipeline from grilling out a plan to the commit that closes the loop.",
-          section: "Toolkit",handler: () => {
-              window.location.href = "/toolkit/04-workflow-strategy-and-takeaways/";
             },},{
         id: 'social-email',
         title: 'email',
