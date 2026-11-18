@@ -74,7 +74,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/jqsrt_2026/";
-            },},{id: "projects-machine-learning-isotope-shifts",
+            },},{id: "news-spoke-at-the-ucl-physics-amp-amp-astronomy-llm-discussion-series-on-working-with-agents-a-shared-vault-as-memory-an-orchestrator-running-my-marvel-pipeline-and-what-went-wrong-the-setup-is-now-written-up-as-my-ai-toolkit-talk-notes",
+          title: 'Spoke at the UCL Physics &amp;amp;amp; Astronomy LLM Discussion Series on working with...',
+          description: "",
+          section: "News",},{id: "projects-machine-learning-isotope-shifts",
           title: 'Machine learning isotope shifts',
           description: "Neural network corrections to the energy levels of rare isotopic molecules. Published in the Journal of Molecular Spectroscopy (2026).",
           section: "Projects",handler: () => {
