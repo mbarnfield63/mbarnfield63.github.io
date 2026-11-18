@@ -18,3 +18,12 @@ nav_order: 2
 {% bibliography %}
 
 </div>
+
+## talks
+
+<!-- From the Talks section of _data/cv.yml, so the CV and this page share one list. -->
+<ul>
+{% for talk in site.data.cv.cv.sections.Talks %}
+  <li><strong>{{ talk.label }}:</strong> {{ talk.details }}</li>
+{% endfor %}
+</ul>
