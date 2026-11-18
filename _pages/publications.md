@@ -21,9 +21,12 @@ nav_order: 2
 
 ## talks
 
-<!-- From the Talks section of _data/cv.yml, so the CV and this page share one list. -->
 <ul>
-{% for talk in site.data.cv.cv.sections.Talks %}
-  <li><strong>{{ talk.label }}:</strong> {{ talk.details }}</li>
+{% for talk in site.data.talks %}
+  <li>
+    <a href="{{ talk.url | relative_url }}">{{ talk.title }}</a><br>
+    {{ talk.details }}<br>
+    <em>({{ talk.kind }})</em>
+  </li>
 {% endfor %}
 </ul>
