@@ -21,16 +21,17 @@ cv:
       - company: University College London, Department of Physics and Astronomy
         position: Doctoral Researcher, Machine Learning and Astrophysical Spectroscopy
         location: London, UK
-        start_date: 2024
+        start_date: 2024-10
         end_date: present
         summary: "Supervisors: Prof. Jonathan Tennyson FRS and Prof. Sergei N. Yurchenko"
         highlights:
-          - "Published a first-author paper on neural network corrections to the energy levels of rare isotopic molecules (Journal of Molecular Spectroscopy, 2026)."
+          - "Published a first-author paper on neural network corrections to the energy levels of rare isotopic molecules. The model improved more than 87% of CO₂ levels and, by transfer learning, more than 93% of CO levels (Journal of Molecular Spectroscopy, 2026)."
           - "Built a graph neural network pipeline that assigned quantum numbers to 224,650 unlabelled CO₂ states across 12 isotopologues (first author, JQSRT, 2026)."
-          - "Built an LLM-assisted pipeline (OCR, then markdown, then structured extraction) that turns published spectroscopy papers into machine-readable datasets, plus an agent that searches the literature for relevant papers."
+          - "Fine-tuned a ModernBERT-large language model with LoRA on A100 GPUs for the same task. It matched the graph neural network (94.9% exact match) with no graph structure."
+          - "Built a multi-agent LLM pipeline that turns published spectroscopy papers into checked datasets: OCR, one extraction agent per paper, scripted checks and a reviewer agent. It screened 34,794 papers and extracted about 273,000 measurements."
           - "Built a PostgreSQL database and read-only REST API for MARVEL energy level data: 31 runs from 19 publications, covering 29 isotopologues."
-          - "Lead graph neural network work on spectroscopic network solving (MARVEL_GNN) and on isotopologue energy level extrapolation."
-          - "Rebuilt the spectroscopic network solving engine (MARVEL v5) with a Python backend and a React, TypeScript and D3.js frontend, using test-driven development."
+          - "Lead two graph neural network projects: isotopologue energy level extrapolation, and MARVEL_GNN, which estimates uncertainties, flags bad lines and suggests label corrections in MARVEL networks. Presented both at HRMS 2026."
+          - "Reproduced the 2024 MARVEL program for H₂O in Python (median energy difference 1.4×10⁻⁸ cm⁻¹ from the authors' program), and wrote a first tested version of a new MARVEL engine (MARVEL v5) with a React and TypeScript viewer."
           - "Maintain a 365-entry knowledge base of the ExoMol literature (ExoMol Wiki), with automated validation checks."
 
       - company: Fluorochem Ltd.
@@ -78,14 +79,13 @@ cv:
         url: https://www.ucl.ac.uk/
         degree: PhD
         area: Physics and Machine Learning
-        start_date: 2024
+        start_date: 2024-10
         end_date: present
         highlights:
           - "Project: Machine Learning Isotopologue Extrapolation for use in Astronomical Spectroscopy"
-          - "Supervisors: Prof. Jonathan Tennyson FRS and Prof. Sergei N. Yurchenko"
           - "Funded by the EPSRC Centre for Doctoral Training in Data Intensive Science and Industry (DISI)"
           - "Postgraduate courses from Physics of Exoplanets to Statistical Data Analysis"
-          - "Chaired an external consultancy project building a machine learning pipeline to analyse flood defences in the USA (Fathom, ML research group industry placement)"
+          - "Industry placement with Fathom (2025): chaired a client project building UNet and SegFormer segmentation models that find missing or misaligned levees in US elevation data, to improve Fathom's flood maps"
 
       - institution: University of Bristol
         location: Bristol, UK
@@ -168,7 +168,7 @@ cv:
 
     Talks:
       - label: Contributed talk
-        details: '"Machine Learning for Isotopologue Extrapolation in the ExoMol Project", Exoplanetary Atmospheres mini-symposium, High Resolution Molecular Spectroscopy (HRMS) 2026, Prague'
+        details: '"Machine Learning for Isotopologue Extrapolation in the ExoMol Project", Exoplanetary Atmospheres mini-symposium, High Resolution Molecular Spectroscopy (HRMS) 2026, Prague, 31 August 2026'
 
     Projects:
       - name: Football transfer fee model
