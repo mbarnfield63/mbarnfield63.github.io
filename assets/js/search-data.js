@@ -69,6 +69,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/jmolspec_2026/";
+            },},{id: "news-machine-learning-for-isotopologue-extrapolation-in-the-exomol-project-hrms-2026-prague-talk",
+          title: 'Machine Learning for Isotopologue Extrapolation in the ExoMol Project (HRMS 2026, Prague) -...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/hrms_2026/";
             },},{id: "news-automated-quantum-number-assignment-for-co-jqsrt-2026-first-author",
           title: 'Automated quantum number assignment for CO₂ (JQSRT, 2026) - First author',
           description: "",
