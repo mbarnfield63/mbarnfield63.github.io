@@ -82,7 +82,7 @@ cv:
         start_date: 2024-10
         end_date: present
         highlights:
-          - "Project: Machine Learning Isotopologue Extrapolation for use in Astronomical Spectroscopy"
+          - "Project: AI & ML Pipelines for Molecular Spectroscopy"
           - "Funded by the EPSRC Centre for Doctoral Training in Data Intensive Science and Industry (DISI)"
           - "Postgraduate courses from Physics of Exoplanets to Statistical Data Analysis"
           - "Industry placement with Fathom (2025): chaired a client project building UNet and SegFormer segmentation models that find missing or misaligned levees in US elevation data, to improve Fathom's flood maps"
