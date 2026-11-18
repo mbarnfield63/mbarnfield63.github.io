@@ -161,8 +161,6 @@ collections:
     output: true
   teachings:
     output: true
-  toolkit:
-    output: false # hidden for now
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
