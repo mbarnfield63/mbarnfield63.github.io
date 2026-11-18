@@ -30,9 +30,19 @@ cv:
           - "Fine-tuned a ModernBERT-large language model with LoRA on A100 GPUs for the same task. It matched the graph neural network (94.9% exact match) with no graph structure."
           - "Built a multi-agent LLM pipeline that turns published spectroscopy papers into checked datasets: OCR, one extraction agent per paper, scripted checks and a reviewer agent. It screened 34,794 papers and extracted about 273,000 measurements."
           - "Built a PostgreSQL database and read-only REST API for MARVEL energy level data: 31 runs from 19 publications, covering 29 isotopologues."
-          - "Lead two graph neural network projects: isotopologue energy level extrapolation, and MARVEL_GNN, which estimates uncertainties, flags bad lines and suggests label corrections in MARVEL networks. Presented both at HRMS 2026."
-          - "Reproduced the 2024 MARVEL program for H₂O in Python (median energy difference 1.4×10⁻⁸ cm⁻¹ from the authors' program), and wrote a first tested version of a new MARVEL engine (MARVEL v5) with a React and TypeScript viewer."
-          - "Maintain a 365-entry knowledge base of the ExoMol literature (ExoMol Wiki), with automated validation checks."
+      
+      - company: University College London, Multiple Departments
+        position: Post Graduate Teaching Assistant
+        location: London, UK
+        start_date: 2025-10
+        end_date: present
+        summary: "Demonstrating and marking undergraduate and masters level courses in Physics, Astronomy and Chemistry"
+        highlights:
+          - "CHEM0077 - Scientific Computing and Data Analysis (2025, 2026)"
+          - "CHEM0025 - Instrumental Chemistry Lab (2025, 2026)"
+          - "PHAS0102 - Techniques of High-Performance Computing (2026)"
+          - "PHAS0056 - Practical Machine Learning for Physicists (2026, 2027)"
+          - "PHAS0020 - Practical Astrophysics and Computing (2026)"
 
       - company: Fluorochem Ltd.
         position: Consultant and Scientific Content Writer
@@ -61,7 +71,7 @@ cv:
         summary: "Project: Influence of mega constellations on our atmosphere. Supervisor: Dr Eloise Marais"
         highlights:
           - "Studied the NOₓ and Al₂O₃ emissions from launching and maintaining satellite mega constellations."
-          - "Gathered and analysed 3 large datasets from several sources in Python."
+          - "Gathered and analysed 3 large datasets of rocket launches and satellites from several sources."
           - "Presented the work at the Natural History Museum, on the environmental impact of the new space race."
 
       - company: National Physical Laboratory
@@ -85,7 +95,7 @@ cv:
           - "Project: AI & ML Pipelines for Molecular Spectroscopy"
           - "Funded by the EPSRC Centre for Doctoral Training in Data Intensive Science and Industry (DISI)"
           - "Postgraduate courses from Physics of Exoplanets to Statistical Data Analysis"
-          - "Industry placement with Fathom (2025): chaired a client project building UNet and SegFormer segmentation models that find missing or misaligned levees in US elevation data, to improve Fathom's flood maps"
+          - "Group project with Fathom (2025): chaired a client project building UNet and SegFormer segmentation models that find missing or misaligned levees in US elevation data, to improve Fathom's flood maps"
 
       - institution: University of Bristol
         location: Bristol, UK
