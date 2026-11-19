@@ -1,10 +1,15 @@
 # Talks listed at the bottom of the publications page, newest first.
-# The CV keeps its own list in _data/cv.yml (Talks section).
 - title: "Working with agents: a PhD pipeline, a personal vault, and (too much) Claude"
   url: /toolkit/talks/2026-11-llm-discussion/
-  details: LLM Discussion Series, UCL Astronomy, London, 17 November 2026
-  kind: internal talk
+  badge: UCL
+  event: LLM Discussion Series, UCL Astronomy, London
+  kind: Internal talk
+  date: 17 Nov 2026
+  year: 2026
 - title: Machine Learning for Isotopologue Extrapolation in the ExoMol Project
   url: /news/hrms_2026/
-  details: (Exo)planetary Atmospheres mini-symposium, HRMS 2026, Prague, 31 August 2026
-  kind: contributed conference talk
+  badge: HRMS
+  event: (Exo)planetary Atmospheres mini-symposium, HRMS 2026, Prague
+  kind: Contributed conference talk
+  date: 31 Aug 2026
+  year: 2026

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Automated quantum number assignment for CO₂ (JQSRT, 2026) - First author
+title: "Paper: Automated quantum number assignment for CO₂ (JQSRT, 2026)"
 date: 2026-09-04 12:00:00
 inline: false
 related_posts: false

@@ -177,6 +177,26 @@ cv:
         summary: "Co-author."
 
     Projects:
+      - name: AI Toolkit
+        date: 2026
+        url: https://mbarnfield63.github.io/toolkit/
+        summary: "A living guide to how I run AI coding agents for research, from one agent per project to an orchestrator with many workers. Claude Code, Obsidian, Markdown."
+
+      - name: MARVEL database
+        date: 2026
+        url: https://github.com/mbarnfield63/MARVEL_db
+        summary: "One database for MARVEL energy level data across many molecules, with a read-only API and a website in development. PostgreSQL, Docker Compose, FastAPI, Python, Astro."
+
+      - name: Headers for ExoMol
+        date: 2026
+        url: https://github.com/mbarnfield63/headers-for-ExoMol
+        summary: "Command-line tool that adds column labels to ExoMol data files and converts them to CSV, without changing the originals. Python, Polars."
+
+      - name: ExoMol LLM wiki
+        date: 2026
+        url: https://github.com/mbarnfield63/ExoMoLLMWiki
+        summary: "A source-checked knowledge base of the ExoMol literature, built with an LLM and kept honest by deterministic checks. Python, Pydantic."
+
       - name: Football transfer fee model
         date: 2026
         url: https://github.com/mbarnfield63/Football-Transfer-Evaluation
