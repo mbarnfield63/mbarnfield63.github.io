@@ -15,7 +15,7 @@ cv:
 
   sections:
     Summary:
-      - Third-year PhD researcher in the ExoMol group at University College London. I build machine learning tools for large molecular spectroscopy databases, used to model the atmospheres of exoplanets. I published two first-author papers in 2026, in the Journal of Molecular Spectroscopy and in JQSRT.
+      - "Third-year PhD researcher in the ExoMol group at University College London, building machine learning tools for the spectroscopic databases used to model exoplanet atmospheres. I design multi-agent LLM pipelines that turn decades of published papers (over 34,000 screened so far) into usable data for our machine learning models. I have built a graph neural network for quantum number classification, matched by a language model I fine-tuned on a GPU cluster, and a deep neural network that corrects errors in our calculated energy levels."
 
     Experience:
       - company: University College London, Department of Physics and Astronomy
