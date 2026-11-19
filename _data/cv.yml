@@ -30,7 +30,7 @@ cv:
           - "Fine-tuned a ModernBERT-large language model with LoRA on A100 GPUs for the same task. It matched the graph neural network (94.9% exact match) with no graph structure."
           - "Built a multi-agent LLM pipeline that turns published spectroscopy papers into checked datasets: OCR, one extraction agent per paper, scripted checks and a reviewer agent. It screened 34,794 papers and extracted about 273,000 measurements."
           - "Built a PostgreSQL database and read-only REST API for MARVEL energy level data: 31 runs from 19 publications, covering 29 isotopologues."
-      
+
       - company: University College London, Multiple Departments
         position: Post Graduate Teaching Assistant
         location: London, UK
